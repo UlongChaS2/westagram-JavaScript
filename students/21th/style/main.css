@@ -1,0 +1,349 @@
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.6rem 0;
+  background-color: white;
+  border: 1px solid #eaeaea;
+}
+
+.mainWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 97.5rem;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+#logo {
+  font-family: 'Lobster', cursive;
+  font-size: 2.8rem;
+}
+
+.searchBox {
+  display: none;
+  width: 21.5rem;
+  height: 2.8rem;
+  padding: 0 1rem;
+  border: 1px solid #e4e4e4;
+  background-color: #fafafa;
+}
+
+.searchIcon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.5rem;
+  background: url(.././image/search.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  opacity: 0.5;
+}
+
+.searchText {
+  width: 20%;
+  border: 0px;
+  background-color: #ffffff00;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon > img {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-right: 2.2rem;
+}
+
+.bookmark > img {
+  margin-right: 0rem;
+}
+
+.myAccount > img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 100%;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.separateWrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mainContents {
+  width: 61.4rem;
+  margin: 4rem 2rem 0 0;
+}
+
+.borderBox {
+  margin-bottom: 2rem;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.storiesBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1.4rem 1.4rem;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colorfulCircle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.6rem;
+  height: 6.6rem;
+  background: linear-gradient(120deg, #c82d8e 0%, #f99d4c 100%);
+  border-radius: 100%;
+}
+
+.profilePhoto {
+  position: absolute;
+  width: 6.2rem;
+  height: 6.2rem;
+  border: 2px solid white;
+  border-radius: 100%;
+  background: url(.././image/cafe.jpg) no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.userId {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.contentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  padding: 2rem;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.smallProfile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.2rem;
+  height: 4.2rem;
+  margin-right: 10px;
+  background: linear-gradient(120deg, #c82d8e 0%, #f99d4c 100%);
+  border-radius: 100%;
+}
+
+.smallProfilePhoto {
+  position: absolute;
+  width: 3.8rem;
+  height: 3.8rem;
+  border: 0.2rem solid white;
+  border-radius: 100%;
+  background: url(.././image/cafe.jpg) no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.boldUserId {
+  flex: 2;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.viewMore {
+  width: 2rem;
+  height: 1rem;
+  background: url(.././image/more.png) no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.postPhoto {
+  width: 100%;
+  height: 40rem;
+  background: url(.././image/cafe.jpg) no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.likeCount {
+  font-weight: bold;
+}
+
+.postComments {
+  padding: 1rem 2rem;
+}
+
+.postComments > div {
+  padding: 0.4rem 0;
+  font-size: 1.4rem;
+}
+
+.postSetting {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tagePeople {
+  color: #00376b;
+}
+
+.postingDate {
+  padding-top: 1rem;
+  font-size: 1rem !important;
+  color: gray;
+}
+
+.profile {
+  display: none;
+}
+
+.newCommentBox {
+  display: none;
+}
+
+.emoji > img {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+
+.newComment {
+  width: 47rem;
+  height: 1.8rem;
+  border: 0rem;
+  resize: none;
+  overflow: hidden;
+}
+
+.postingButton {
+  border: 0px;
+  background: #ffffff00;
+}
+
+.myProfile {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.myProfile > .colorfulCircle {
+  margin-right: 1rem;
+}
+
+.accountChage,
+.follow {
+  flex: 1;
+  text-align: right;
+}
+
+.blue {
+  color: #0095f6;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: -0.09rem;
+}
+
+.recommedTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recommedText {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #8e8e8e;
+}
+
+.recommedUserBox > ul {
+  padding: 1rem 0;
+}
+
+.recommedUserBox > ul > li {
+  display: flex;
+  align-items: center;
+}
+
+.allView {
+  font-size: 1.2rem;
+}
+
+.followInfo {
+  font-size: 1.2rem;
+  color: #8e8e8e;
+  letter-spacing: -0.09rem;
+}
+
+footer {
+  margin-top: 3rem;
+}
+
+.footerUl {
+  margin: 1rem 0;
+}
+
+.footerA,
+.mainInfo {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #c7c7c7;
+  letter-spacing: -0.08rem;
+  line-height: 1;
+}
+
+.footerA::after {
+  content: '·';
+  margin-left: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.footerLi:nth-last-child(1) .footerA::after {
+  content: '';
+}
+
+@media (min-width: 641px) {
+  .searchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newCommentBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 2rem;
+    border-top: 1px solid #eaeaea;
+  }
+}
+
+@media (min-width: 1000px) {
+  .profile {
+    display: block;
+    width: 29.3rem;
+    margin: 4rem 0;
+  }
+}
